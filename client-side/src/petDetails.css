@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.mainContainer {
+    width: 100%;
+    height: 100vh;
+    display: block;
+    margin: 0;
+    background-color: #27374D;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 16vh;
+}
+
+nav h1 {
+    font-size: 50px;
+    text-align: center;
+    color: #DDE6ED;
+    margin-top: 2rem;
+    padding-left: 1rem;
+}
+
+.backHome{
+    color: #DDE6ED;
+    height: 2rem;
+    margin: 2.5rem;
+    padding: auto auto;
+    border-radius: 7%;
+    background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
+}
+
+.header {
+    font-size: 30px;
+    color: #DDE6ED;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.main {
+    border: 2px solid black;
+    color: #DDE6ED;
+    display: block;
+    width: 50%;
+    height: 54vh;
+    margin: 2% auto;
+    padding: 2%;
+}
+
+.type, .des, .skills {
+    margin: 30px;
+    font-size: 40px;
+}
+
+
+.skills {
+    margin: 0 0 0 1.2rem;
+    display: inline-block;
+    width: 50%;
+}
+
+.skills-div h2 {
+    font-size: 1.5rem;
+    width: 50%;
+    margin-left: 6rem;
+    padding: 3% 0;
+}
+
+.adopt {
+    display: block;
+    background-color: red;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    margin: 0 auto;
+}
